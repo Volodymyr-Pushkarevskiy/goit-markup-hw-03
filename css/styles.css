@@ -60,7 +60,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
 .page-logo-header {
@@ -99,6 +98,11 @@ img {
     letter-spacing: 0.02em;
 }
 
+.nav-list-item-link {
+    display: block;
+    padding: 24px 0px;
+}
+
 .nav-list-item-link:hover,
 .nav-list-item-link:focus {
     color: #404BBF;
@@ -123,6 +127,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
 }
 
 .address-list-link:hover,
