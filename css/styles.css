@@ -62,6 +62,12 @@ img {
     align-items: center;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
 .page-logo-header {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -70,8 +76,6 @@ img {
     color: #2E2F42;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 76px;
-
 }
 
 .page-logo-header-web {
@@ -249,7 +253,7 @@ background-color: #F4F4FD;
 .team-list {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+
 }
 
 .team-list-card {
@@ -257,6 +261,7 @@ background-color: #F4F4FD;
     display:flex;
     flex-direction: column; 
     border-radius: 0 0 4px 4px;
+    width: 264px;
 }
 
 .team-list-card img {
